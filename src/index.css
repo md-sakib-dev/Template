@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dot {
+    width: 6px;
+    height: 6px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 0 2px;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  li:hover .dot {
+    opacity: 1;
+  }
+  #slider-boxes{
+    display: flex !important;
+
+ 
+  }
+  .slick-slide div{
+    margin: 10px !important;
+  }
+  .slick-arrow:before{
+    color: black;
+    font-size: 30px;
+  }
+
+  .slick-dots li button {
+    width: 5px; /* Adjust the width of the dots */
+    height: 5px; /* Adjust the height of the dots */
+    border-radius: 50%; /* Make dots circular */
+    background-color: black; /* Change dot color here */
+    opacity: 0.75; /* Adjust dot opacity if needed */
+    transition: opacity 0.2s ease; /* Add transition effect for opacity change */
+  }
+  
